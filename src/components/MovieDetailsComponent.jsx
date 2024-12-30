@@ -11,6 +11,8 @@ import DetailsShimmer from "./DetailsShimmer";
 
 const MovieDetailsComponent = () => {
   const { id } = useParams();
+  console.log(id);
+  
 
   useMovieDetails(id);
   const movieDetails = useSelector((store) => store?.movies?.movieDetails);

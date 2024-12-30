@@ -4,6 +4,7 @@ import useMovieTrailer from "../hooks/useMovieTrailer";
 const BackgroundVideo = ({movieId})=>{
     const trailerVideo = useSelector((store)=>store.movies?.trailerVideo)
     useMovieTrailer(movieId);
+    
 
     return(
         <div className="w-[100%] overflow-hidden">
