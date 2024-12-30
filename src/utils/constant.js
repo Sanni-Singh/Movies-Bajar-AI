@@ -5,7 +5,7 @@ export const API_OPTION =  {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer' + tmdbApiKey
+      Authorization: `Bearer ${tmdbApiKey}`
     }
   };
 export const GeminiApi = geminiApiKey;
