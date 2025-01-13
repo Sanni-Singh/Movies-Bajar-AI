@@ -101,6 +101,11 @@ const LoginComponent = ()=>{
                             <label htmlFor="terms" className="font-light text-gray-500 dark:text-gray-300">I accept the <a className="font-medium hover:underline " href="#">Terms and Conditions</a></label>
                         </div>
                     </div>
+                    {isLogin && <div className="text-white flex flex-col justify-center items-center">
+                        <p className=" font-bold">Mock Login:</p>
+                        <p>Email:sanni12movie@gmail.com</p>
+                        <p>Pass :SanniMovie$12</p>
+                    </div>}
 
                     {activeBtn && <button onClick={submitBtn} className="w-full text-white bg-[#2563EB] hover:bg-[#2563EB] focus:ring-4 focus:outline-none focus:ring-[#2563EB] font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[
                     #2563EB] dark:hover:bg-[#2563EB] dark:focus:ring-[#2563EB]">{isLogin ? "Login" : "Create an account"}</button>}
