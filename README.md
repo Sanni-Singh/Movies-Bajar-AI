@@ -20,7 +20,7 @@ Check out the live version of the app here: [Movies Bajar AI Live](https://movie
 * Authentication: Firebase Authentication
 * Movie Database: TMDB API
 * AI Features: Gemini API
-* Hosting: Firebase Hosting
+* Hosting: Vercel Hosting
 
 ## 🌟 Show Your Support
 
