@@ -8,11 +8,11 @@ Check out the live version of the app here: [Movies Bajar AI Live](https://movie
 
 ## 🚀 Features
 
-🎬 Movie Search: Quickly find your favorite movies.
-📜 Detailed Information: Get access to details like cast, crew, release date, and synopsis.
-🧠 AI Recommendations: Personalized movie suggestions based on user preferences.
-📊 Trending Movies: Stay updated on what's popular in the movie world.
-🎨 Beautiful UI: User-friendly and visually appealing interface.
+* 🎬 Movie Search: Quickly find your favorite movies.
+* 📜 Detailed Information: Get access to details like cast, crew, release date, and synopsis.
+* 🧠 AI Recommendations: Personalized movie suggestions based on user preferences.
+* 📊 Trending Movies: Stay updated on what's popular in the movie world.
+* 🎨 Beautiful UI: User-friendly and visually appealing interface.
 
 ## 🚀 Tech Stack
 
