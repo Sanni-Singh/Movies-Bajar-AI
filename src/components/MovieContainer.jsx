@@ -1,7 +1,12 @@
 import { useSelector } from "react-redux";
 import MovieLists from './MovieLists'
+import LoaderUi from "./LoaderUi";
 const MovieContainer =()=>{
     const movies = useSelector((store)=>store.movies)
+    // movies.nowPlayingMovie=null;
+    if (!movies.nowPlayingMovie || movies.nowPlayingMovie.length === 0) {
+        return <LoaderUi/>;
+      }
     
     return(
         movies.nowPlayingMovie &&
